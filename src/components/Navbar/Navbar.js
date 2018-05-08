@@ -22,10 +22,10 @@ const Navbar = props => (
           <Link to="/">Home</Link>
         </li>
         <li className={window.location.pathname === "/menu" ? "active" : ""}>
-          <Link to="/menu">Discover</Link>
+          <Link to="/menu">Menu</Link>
         </li>
         <li className={window.location.pathname === "/contact" ? "active" : ""}>
-          <Link to="/contact">Search</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </div>
